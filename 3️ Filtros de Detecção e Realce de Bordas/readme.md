@@ -1,6 +1,6 @@
 # 🧠 Filtro de Detecção de Bordas com Sobel (Python + NumPy)
 
-Este repositório contém um exemplo prático de aplicação do filtro de Sobel, utilizado para detecção de bordas em imagens. O algoritmo é implementado manualmente em Python usando NumPy e a biblioteca Pillow para manipulação de imagens.
+Este repositório contém um exemplo prático de aplicação do filtro de Sobel, utilizado para detecção de bordas em imagens. 
 
 ## 🖼️ Exemplo Visual
 
@@ -30,3 +30,13 @@ sobel_x = np.array([[-1, 0, 1],
 sobel_y = np.array([[-1, -2, -1],
                     [ 0,  0,  0],
                     [ 1,  2,  1]])
+```
+
+Para cada pixel, a magnitude do gradiente é calculada como:
+
+```python
+gx = np.sum(sobel_x * regiao)
+gy = np.sum(sobel_y * regiao)
+gradiente = np.sqrt(gx**2 + gy**2)
+resultado[i, j] = min(255, int(gradiente))
+```
