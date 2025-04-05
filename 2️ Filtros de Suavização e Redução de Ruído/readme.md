@@ -8,7 +8,7 @@ Imagem original com ruído:
 
 <img src="2.png" alt="Imagem original com ruído" width="300"/>
 
-Imagem após a aplicação do filtro de mediana
+Imagem após a aplicação do filtro de mediana:
 
 <img src="2mod.png" alt="Imagem com filtro da mediana" width="300"/>
 
