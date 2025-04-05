@@ -9,7 +9,7 @@ Imagem original:
 
 Imagem com linhas (vermelho) e círculos (azul) detectados:
 
-<img src="4mod" alt="Imagem com Hough" width="300"/>
+<img src="4mod.png" alt="Imagem com Hough" width="300"/>
 
 ## 🧠 Como funciona
 
