@@ -1,6 +1,6 @@
 # 💡 Aumentar Brilho de Imagem com Python
 
-Este repositório contém um script simples em Python que utiliza a biblioteca [Pillow (PIL)](https://python-pillow.org/) para aumentar o brilho de uma imagem.
+Este repositório contém um script simples em Python que aumenta o brilho de uma imagem.
 
 ## 🖼️ Exemplo
 
