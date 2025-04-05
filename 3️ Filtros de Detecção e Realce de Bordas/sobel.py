@@ -2,11 +2,9 @@ from PIL import Image
 import numpy as np
 
 def aplicar_filtro_sobel(imagem):
-    # Converter para escala de cinza
     imagem = imagem.convert('L')
     matriz = np.array(imagem, dtype='int32')
 
-    # Kernels de Sobel
     sobel_x = np.array([[-1, 0, 1],
                         [-2, 0, 2],
                         [-1, 0, 1]])
@@ -28,9 +26,7 @@ def aplicar_filtro_sobel(imagem):
 
     return Image.fromarray(resultado)
 
-# Carregar a imagem original
 imagem_original = Image.open('3.png')
 imagem_sobel = aplicar_filtro_sobel(imagem_original)
 
-# Salvar o resultado
 imagem_sobel.save('3mod.png')
