@@ -18,5 +18,4 @@ for x in range(largura):
         b = min(int(b * fator_brilho), 255)
         pixels[x, y] = (r, g, b)
 
-# Salvar a nova imagem
 imagem.save('1mod.png')
