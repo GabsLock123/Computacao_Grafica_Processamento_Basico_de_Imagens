@@ -6,11 +6,11 @@ Este repositório apresenta a aplicação do filtro da mediana em uma imagem com
 
 Imagem original com ruído:
 
-![Imagem original com ruído](2.png)
+<img src="2.png" alt="Imagem original com ruído" width="300"/>
 
-Imagem após aplicação do filtro da mediana:
+Imagem após a aplicação do filtro de mediana
 
-![Imagem com filtro aplicado](2mod.png)
+<img src="2mod.png" alt="Imagem com filtro da mediana" width="300"/>
 
 ## 🧠 Como funciona
 
