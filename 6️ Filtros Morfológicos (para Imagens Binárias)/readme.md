@@ -10,7 +10,7 @@ Imagem binária original:
 
 Imagem após erosão:
 
-<img src="image.png" alt="Imagem após erosão" width="300"/>
+<img src="6mod.png" alt="Imagem após erosão" width="300"/>
 
 ## 🧠 Como funciona
 
