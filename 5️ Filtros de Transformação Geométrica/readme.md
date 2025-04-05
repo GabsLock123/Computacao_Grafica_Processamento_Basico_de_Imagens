@@ -6,11 +6,11 @@ Este repositório apresenta um exemplo simples e eficaz de como redimensionar um
 
 Imagem original:
 
-<img src="5.png" alt="Imagem original" width="300"/>
+<img src="5.png" alt="Imagem original"/>
 
 Imagem redimensionada com interpolação bicúbica:
 
-<img src="5mod.png" alt="Imagem redimensionada" width="300"/>
+<img src="5mod.png" alt="Imagem redimensionada"/>
 
 ## 🧠 Como funciona
 
